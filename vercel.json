@@ -1,15 +1,12 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "./server.js",
-      "use": "@vercel/node"
+  "functions": {
+    "api": {
+      "handler": "index.handler",
+      "memory": 512
     }
-  ],
+  },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
+    { "src": "/bhfl/data", "dest": "/api" },
+    { "src": "/bhfl(.*)", "dest": "/api$1" }
   ]
 }
