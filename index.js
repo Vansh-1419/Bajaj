@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 const port = 8081; // Change this to the desired port number
-const baseurl = "/bhfl";
+const baseurl = "/bfhl";
 app.use(bodyParser.json());
 
 //GET METHOD

@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/bhfl(.*)",
-      "dest": "/bhfl"
+      "src": "/bfhl(.*)",
+      "dest": "/bfhl"
     }
   ]
 }
