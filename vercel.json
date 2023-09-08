@@ -1,7 +1,6 @@
 {
   "functions": {
     "api": {
-      "handler": "index.handler",
       "memory": 512
     }
   },
