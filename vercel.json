@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "api": { "memory": 512 }
-  },
-  "routes": [
-    { "src": "/bhfl/data", "dest": "/api" },
-    { "src": "/bhfl(.*)", "dest": "/api$1" }
-  ]
-}
